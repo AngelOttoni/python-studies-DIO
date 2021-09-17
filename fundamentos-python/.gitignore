@@ -5,7 +5,6 @@
 *.vscode
 *slides/
 amb-virtual.md
-aula10.py
 aula11_personalizar_excecao.py
 aula11.py
 aula12.py
