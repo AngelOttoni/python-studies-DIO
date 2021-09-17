@@ -1,6 +1,6 @@
-# Curso Fundamentos em Python realizado na plataforma [DIO](https://digitalinnovation.one/)
+# Curso Introdução à programação com Python realizado na plataforma [DIO] (https://digitalinnovation.one/)
 
-## Porfessor: Rafael Galleani
+## Professor: Rafael Galleani
 
 *Repositório do curso: 'https://github.com/rafegal/fundamentos_dio_python.git*
 
