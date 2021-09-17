@@ -1,0 +1,5 @@
+Eu estou estudando a Linguagem Python.
+Nesta aula aprendi:
+1. Aprender a ler e escrever arquivos
+2. Manipular informações dos arquivos
+3. Copiar e mover arquivos.
