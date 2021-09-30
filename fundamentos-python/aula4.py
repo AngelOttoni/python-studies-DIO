@@ -9,9 +9,9 @@ while c > 10:
     c = int(input('Você digitou errado. Terceiro bimestre: '))
 d = int(input('Quanto bimestre: '))
 while d > 10:
-    d = int(input('Você digitou errado. Quanto bimestre: '))
+    d = int(input('Você digitou errado. Quarto bimestre: '))
 media = (a + b + c + d) / 4
-print('media: {}'.format(media))
+print('Média: {}'.format(media))
 
 # nota = int(input('Entre com a nota: '))
 # while nota > 10:
