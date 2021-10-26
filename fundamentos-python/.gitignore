@@ -1,9 +1,12 @@
 # Ignored Itens
 *__pycache__/
 *.mypy_cache/
+*prova/
 *.venv/
 *.vscode
 *slides/
 amb-virtual.md
+app.py
 comments.py
 letscodeitau.py
+split.py
