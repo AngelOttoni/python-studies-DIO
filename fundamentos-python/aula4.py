@@ -7,7 +7,7 @@ while b > 10:
 c = int(input('Terceiro bimestre: '))
 while c > 10:
     c = int(input('Você digitou errado. Terceiro bimestre: '))
-d = int(input('Quanto bimestre: '))
+d = int(input('Quarto bimestre: '))
 while d > 10:
     d = int(input('Você digitou errado. Quarto bimestre: '))
 media = (a + b + c + d) / 4
@@ -49,4 +49,3 @@ print('Média: {}'.format(media))
 #     print('número {} é primo'.format(a))
 # else:
 #     print('número {} não é primo'.format(a))
-
