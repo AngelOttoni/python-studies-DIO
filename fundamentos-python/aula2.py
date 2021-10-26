@@ -7,13 +7,13 @@ multiplicacao = a * b
 divisao = a / b
 resto = a % b
 resultado = ('Soma: {soma}. \nSubtração: {subtracao}. '
-      '\nMultiplicação: {multiplicacao}'
-      '\nDivisão: {divisao}'
-      '\nResto: {resto}'.format(soma=soma,
-                                subtracao=subtracao,
-                                resto=resto,
-                                multiplicacao=multiplicacao,
-                                divisao=divisao))
+             '\nMultiplicação: {multiplicacao}'
+             '\nDivisão: {divisao}'
+             '\nResto: {resto}'.format(soma=soma,
+                                       subtracao=subtracao,
+                                       resto=resto,
+                                       multiplicacao=multiplicacao,
+                                       divisao=divisao))
 print(resultado)
 
 # x = '1'
