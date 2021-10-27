@@ -1,6 +1,6 @@
 # Repositório destinado aos meus estudos sobre a linguagem Python pela plataforma Digital Innovation One [DIO]
 
-## Curso em anadamento:
+## Curso em andamento:
 - Desenvolvimento avançado Python com Flask e REST API (Avançado - 5h) *Professor Rafael Galleani*
 
 ## Curso concluído:
