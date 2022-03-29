@@ -1,4 +1,5 @@
 # Ignored Itens
+*examples/
 *__pycache__/
 *.mypy_cache/
 *prova/
@@ -9,5 +10,6 @@ amb-virtual.md
 app.py
 comments.py
 letscodeitau.py
+notes.txt
 pagamento.py
 split.py
