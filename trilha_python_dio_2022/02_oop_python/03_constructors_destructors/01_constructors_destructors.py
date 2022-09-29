@@ -1,31 +1,31 @@
-class Cachorro:
-    def __init__(self, nome, cor, acordado=True):
-        print("Inicializando a classe...")
-        self.nome = nome
-        self.cor = cor
-        self.acordado = acordado
+class Dog:
+    def __init__(self, name, color, awake=True):
+        print("Initializing the class...");
+        self.name = name;
+        self.color = color;
+        self.awake = awake;
 
     def __del__(self):
-        print("Removendo a instância da classe.")
-
-    def falar(self):
-        print("auau")
-
-
-def criar_cachorro():
-    c = Cachorro("Zeus", "Branco e preto", False)
-    print(c.nome)
+        print("Removing the class instance.");
+#latir
+    def bark(self):
+        print("auau");
 
 
-c = Cachorro("Chappie", "amarelo")
-c.falar()
+def create_dog():
+    dog1 = Dog("Zeus", "White and black", False);
+    print(dog1.name);
 
-print("Ola mundo")
 
-del c
+dog1 = Dog("Chappie", "yellow");
+dog1.bark();
 
-print("Ola mundo")
-print("Ola mundo")
-print("Ola mundo")
+print("Hello World!");
 
-# criar_cachorro()
+del dog1;
+
+print("Hello World!");
+print("Hello World!");
+print("Hello World!");
+
+create_dog();
