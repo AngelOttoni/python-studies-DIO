@@ -1,22 +1,26 @@
-class Conta:
-    def __init__(self, nro_agencia, saldo=0):
-        self._saldo = saldo
-        self.nro_agencia = nro_agencia
+class Bank_account:
+    def __init__(self, agency, balance=0):
+        self._balance = balance
+        self.agency = agency
 
-    def depositar(self, valor):
+    def deposit(self, value):
         # ...
-        self._saldo += valor
+        self._balance += value
 
-    def sacar(self, valor):
+    def to_withdraw(self, value):
         # ...
-        self._saldo -= valor
+        self._balance -= value
 
-    def mostrar_saldo(self):
+    def show_balance(self):
         # ...
-        return self._saldo
+        return self._balance
 
 
-conta = Conta("0001", 100)
-conta.depositar(100)
-print(conta.nro_agencia)
-print(conta.mostrar_saldo())
+bank_account = Bank_account("0001", 100)
+bank_account.deposit(100)
+print(f"Bank Agency: {bank_account.agency}")
+print(f"Current Balance: R${bank_account.show_balance()}")
+
+
+#Python is strongly, dynamically typed.
+#By convention a _ is used for private attributes in Python.
