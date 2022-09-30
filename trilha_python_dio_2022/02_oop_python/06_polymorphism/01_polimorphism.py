@@ -1,28 +1,28 @@
-class Passaro:
-    def voar(self):
-        print("Voando...")
+class Bird:
+    def to_fly(self):
+        print("Flying...")
 
+#Pardal
+class Sparrow(Bird):
+    def to_fly(self):
+        print("Sparrow can fly!")
 
-class Pardal(Passaro):
-    def voar(self):
-        print("Pardal pode voar")
-
-
-class Avestruz(Passaro):
-    def voar(self):
-        print("Avestruz não pode voar")
+#Avestruz
+class Ostrich(Bird):
+    def to_fly(self):
+        print("Ostrich cannot fly!")
 
 
 # NOTE: exemplo ruim do uso de herança para "ganhar" o método voar
-class Aviao(Passaro):
-    def voar(self):
-        print("Avião está decolando...")
+class Airplane(Bird):
+    def to_fly(self):
+        print("Plane is taking off...")
 
 
-def plano_voo(obj):
-    obj.voar()
+def flight_plan(obj):
+    obj.to_fly()
 
 
-plano_voo(Pardal())
-plano_voo(Avestruz())
-plano_voo(Aviao())
+flight_plan(Sparrow())
+flight_plan(Ostrich())
+flight_plan(Airplane())
