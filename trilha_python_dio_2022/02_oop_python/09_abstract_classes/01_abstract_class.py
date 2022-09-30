@@ -1,56 +1,56 @@
 from abc import ABC, abstractmethod, abstractproperty
 
 
-class ControleRemoto(ABC):
+class RemoteControl(ABC):
     @abstractmethod
-    def ligar(self):
+    def turn_on(self):
         pass
 
     @abstractmethod
-    def desligar(self):
+    def turn_off(self):
         pass
 
     @property
     @abstractproperty
-    def marca(self):
+    def brand(self):
         pass
 
 
-class ControleTV(ControleRemoto):
-    def ligar(self):
-        print("Ligando a TV...")
-        print("Ligada!")
+class TVControl(RemoteControl):
+    def turn_on(self):
+        print("Turning on the TV...")
+        print("Is on!")
 
-    def desligar(self):
-        print("Desligando a TV...")
-        print("Desligada!")
+    def turn_off(self):
+        print("Turning off the TV...")
+        print("Is Off!")
 
     @property
-    def marca(self):
+    def brand(self):
         return "Philco"
 
 
-class ControleArCondicionado(ControleRemoto):
-    def ligar(self):
-        print("Ligando o Ar Condicionado...")
-        print("Ligado!")
+class AirConditioningControl(RemoteControl):
+    def turn_on(self):
+        print("Turning on the Air Conditioning...")
+        print("Is on!")
 
-    def desligar(self):
-        print("Desligando o Ar Condicionado...")
-        print("Desligado!")
+    def turn_off(self):
+        print("Turning off the air conditioning...")
+        print("Is off!")
 
     @property
-    def marca(self):
+    def brand(self):
         return "LG"
 
 
-controle = ControleTV()
-controle.ligar()
-controle.desligar()
-print(controle.marca)
+control = TVControl()
+control.turn_on()
+control.turn_off()
+print(control.brand)
 
 
-controle = ControleArCondicionado()
-controle.ligar()
-controle.desligar()
-print(controle.marca)
+control = AirConditioningControl()
+control.turn_on()
+control.turn_off()
+print(control.brand)
